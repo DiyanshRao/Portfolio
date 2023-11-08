@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20  rounded-xl  ${
+      } w-full flex items-center py-5 fixed top-0 z-20    ${
         scrolled ? 'bg-gray-400' : 'bg-transparent'
       }`}
     >
@@ -62,11 +62,11 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`/${nav.title}`}>{nav.title}</a>
             </li>
           ))}
           <li className={`font-poppins font-medium cursor-pointer text-[16px]`}>
-            <a href={resume} download>
+            <a href={resume} download='DiyanshRao_CV.pdf'>
               Download CV
             </a>
           </li>

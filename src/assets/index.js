@@ -32,7 +32,7 @@ import gradup from './company/webLogo.jpeg'
 import project1 from './project1.jpeg'
 import project2 from './project2.jpeg'
 import project3 from './project3.jpeg'
-import resume from './resume.pdf'
+import resume from '../assets/resume.pdf'
 
 export {
   logo,

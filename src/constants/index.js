@@ -51,7 +51,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Competitive Coding ',
     icon: creator,
   },
 ]
@@ -119,6 +119,8 @@ const experiences = [
     iconBg: '#383E56',
     date: 'July 2023 -  Current',
     points: [
+      'Developed webs craping and automation systems for data collection,resulting in improved data quality and increased sales.',
+      'Created a scheduled task for daily database updates,ensuring data accuracy.',
       'Implemented advanced caching strategies using Next.js,resulting in a remarkable 40% reduction in page load times.',
       'Developed the backend APIs of the course video player,optimizing video streaming capabilities and reducing buffering time by 60%, resulting in an improved user experience.',
       'Implemented and integrated AI-powered chatbot chatling API into the company’s website,Collaborated with cross-functional teams including marketing and sales to analyze data collected from the chatbot API, identifying key insights on customer preferences and behavior that informed strategic decision-making',

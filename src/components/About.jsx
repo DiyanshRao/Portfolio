@@ -39,7 +39,7 @@ const About = () => {
         craft the future! 🚀🔮 #TechAlchemist #DigitalDreams #CodeExplorer
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-5'>
+      <div className='mt-20 flex flex-wrap gap-5 justify-center items-center'>
         {services.map((service, index) => (
           <ServiceCard
             key={service.title}
