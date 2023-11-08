@@ -62,8 +62,9 @@ const page = () => {
         <p className=' sm:max-w-[1300px] text-center'>{about}</p>
       </div>
       <div className='mt-10 flex flex-wrap gap-5 items-center justify-center'>
-        {Cards.map((card) => (
+        {Cards.map((card, index) => (
           <a
+            key={index}
             href={card.link}
             className='flex-shrink-0 border border-gray-400 flex flex-row py-2 px-4 gap-4 w-[250px] h-[80px] items-center '
           >
@@ -76,8 +77,11 @@ const page = () => {
         ))}
       </div>
       <div className='mt-10 flex flex-wrap gap-5 items-center justify-center mx-5'>
-        {courses.map((course) => (
-          <dvi className='flex-shrink-0 border border-gray-400 flex flex-row py-2 px-4 gap-4    w-full '>
+        {courses.map((course, index) => (
+          <dvi
+            className='flex-shrink-0 border border-gray-400 flex flex-row py-2 px-4 gap-4    w-full '
+            key={index}
+          >
             <img src='/coursera.png' className='w-[80px]' />
             <div>
               <h1 className='font-bold text-left '>{course.name}</h1>
