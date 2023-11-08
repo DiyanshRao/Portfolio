@@ -24,7 +24,6 @@ const Navbar = () => {
 
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-
   return (
     <nav
       className={`${
@@ -34,14 +33,7 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center '>
-        <a
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive('')
-            window.scrollTo(0, 0)
-          }}
-        >
+        <a href='/' className='flex items-center gap-2'>
           <img
             src={logo.src}
             alt='logo'
@@ -66,7 +58,7 @@ const Navbar = () => {
             </li>
           ))}
           <li className={`font-poppins font-medium cursor-pointer text-[16px]`}>
-            <a href={resume} download='DiyanshRao_CV.pdf'>
+            <a href='/resume.pdf' download='Diyansh_Rao_CV.pdf'>
               Download CV
             </a>
           </li>

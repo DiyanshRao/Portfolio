@@ -1,8 +1,16 @@
+import Tech from '@/components/Tech'
+import Works from '@/components/Works'
+import Experience from '@/components/Experience'
 const page = () => {
   return (
-    <div className='flex justify-center items-center'>
-      <img src='/wip.webp' className='w-[600px] h-[300px] rounded-xl mt-10' />{' '}
-    </div>
+    <>
+      <div className='flex flex-col justify-center items-center my-10'>
+        <h1 className='font-bold sm:text-4xl text-xl '>Technologies I Use </h1>
+        <Tech />
+        <Experience />
+        <Works />
+      </div>
+    </>
   )
 }
 export default page
