@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className='bg-blue-950  w-screen'>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center sm:block hidden'>
           <Hero />
         </div>
         <About />
