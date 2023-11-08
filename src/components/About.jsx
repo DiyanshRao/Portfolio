@@ -22,7 +22,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-left sm:text-center '
       >
         🚀 Tech Alchemist | Code Explorer | Digital Dreamweaver 🌌 Ahoy, fellow
         digital navigators! 🌟 I&apos;m Diyansh Rao, your cybernetic sherpa on a

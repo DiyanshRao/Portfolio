@@ -10,9 +10,9 @@ import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
-    <main className='bg-blue-950  w-screen'>
+    <main className='bg-blue-950  w-screen px-5'>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center sm:block hidden'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center '>
           <Hero />
         </div>
         <About />

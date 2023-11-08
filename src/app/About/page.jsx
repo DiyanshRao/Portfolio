@@ -56,7 +56,7 @@ const courses = [
 ]
 const page = () => {
   return (
-    <div className='my-10'>
+    <div className='my-20'>
       <div className='flex flex-col gap-5 justify-center items-center px-5'>
         <h1 className='sm:text-4xl text-xl font-bold'>About Me </h1>
         <p className=' sm:max-w-[1300px] text-center'>{about}</p>
