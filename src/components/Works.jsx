@@ -74,7 +74,7 @@ const Works = () => {
   return (
     <div className='mt-10 flex flex-col justify-center items-center text-center'>
       <motion.div variants={textVariant()}>
-        <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider'>
+        <p className='sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider text-white'>
           My work
         </p>
         <h2
