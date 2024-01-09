@@ -20,6 +20,7 @@ import {
   project1,
   project2,
   project3,
+  project4,
 } from '../assets'
 
 export const navLinks = [
@@ -166,6 +167,27 @@ const testimonials = [
 ]
 
 const projects = [
+  {
+    name: 'Discord Clone',
+    description:
+      'A Discord clone using Next.js, Socket.io, Prisma DB, and more! 🎉 This would  have been possible without the incredible tutorials from Code with Antonio. 🙌🌐 Check out the live project here: https://lnkd.in/gXARkemY↗',
+    tags: [
+      {
+        name: 'Nextjs-14',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Socket.io',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Prisma DB',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: project4,
+    source_code_link: 'https://discord-clone-production-68a7.up.railway.app/',
+  },
   {
     name: 'AI Based Tic-tac-Toe',
     description:

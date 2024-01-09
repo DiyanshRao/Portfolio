@@ -32,6 +32,7 @@ import gradup from './company/webLogo.jpeg'
 import project1 from './project1.jpeg'
 import project2 from './project2.jpeg'
 import project3 from './project3.jpeg'
+import project4 from './project4.jpeg'
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   project1,
   project2,
   project3,
+  project4,
 }
