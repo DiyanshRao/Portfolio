@@ -1,12 +1,11 @@
 'use client'
-import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import ComputersCanvas from './canvas/Computers'
+import Tech from './Tech'
 
 const Hero = () => {
   return (
-    <section className={`relative w-full sm:h-screen h-[350px] mx-auto`}>
+    <section className={`relative w-full  h-[350px] mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -29,8 +28,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
     </section>
   )
 }

@@ -20,24 +20,29 @@ const About = () => {
         </h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         variants={fadeIn('', '', 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-left sm:text-center text-white '
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]  text-justify sm:text-center text-white flex flex-col gap-2'
       >
-        🚀 Tech Alchemist | Code Explorer | Digital Dreamweaver 🌌 Ahoy, fellow
-        digital navigators! 🌟 I&apos;m Diyansh Rao, your cybernetic sherpa on a
-        quest to decode the matrix and sculpt virtual realms. 🎓 Armed with a
-        B.Tech in Computer Science, I&apos;ve journeyed through the labyrinthine
-        landscapes of code, conjuring websites, and apps from the ether.
-        I&apos;m the one you call when your pixels are in peril! 💻✨ But wait,
-        there&apos;s more to me than just coding spells. When I&apos;m not
-        unraveling binary mysteries, I&apos;m deciphering the scrolls of tech
-        blogs 📚, brainstorming solutions for tomorrow&apos;s challenges 💡, or
-        engaging in epic quests in the digital realms 🎮. Let&apos;s embark on
-        this odyssey together, where we morph ideas into innovation, pixels into
-        poetry, and dreams into digital reality. Connect with me, and let&apos;s
-        craft the future! 🚀🔮 #TechAlchemist #DigitalDreams #CodeExplorer
-      </motion.p>
+        <p className=''>
+          🚀 Tech Alchemist | Code Explorer | Digital Dreamweaver 🌌
+        </p>
+        <p>
+          Ahoy, fellow digital navigators! 🌟 I&apos;m Diyansh Rao, your
+          cybernetic sherpa on a quest to decode the matrix and sculpt virtual
+          realms. 🎓 Armed with a B.Tech in Computer Science, I&apos;ve
+          journeyed through the labyrinthine landscapes of code, conjuring
+          websites, and apps from the ether. I&apos;m the one you call when your
+          pixels are in peril! 💻✨ But wait, there&apos;s more to me than just
+          coding spells. When I&apos;m not unraveling binary mysteries, I&apos;m
+          deciphering the scrolls of tech blogs 📚, brainstorming solutions for
+          tomorrow&apos;s challenges 💡, or engaging in epic quests in the
+          digital realms 🎮. Let&apos;s embark on this odyssey together, where
+          we morph ideas into innovation, pixels into poetry, and dreams into
+          digital reality. Connect with me, and let&apos;s craft the future!
+          🚀🔮
+        </p>
+      </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-5 justify-center items-center'>
         {services.map((service, index) => (
