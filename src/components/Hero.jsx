@@ -1,11 +1,11 @@
 'use client'
 
+import Typewriter from 'typewriter-effect'
 import { styles } from '../styles'
-import Tech from './Tech'
 
 const Hero = () => {
   return (
-    <section className={`relative w-full  h-[350px] mx-auto`}>
+    <section className={`relative w-full h-[200px] md:h-[350px] mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -16,16 +16,29 @@ const Hero = () => {
 
         <div>
           <h1
-            className={`font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 `}
+            className={`font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] my-2 `}
           >
-            Hi, I&apos;m <span className='text-[#915EFF]'>Diyansh</span>
+            Hi, I&apos;m <span className='text-[#915EFF]'>Diyansh Rao</span>
           </h1>
-          <p
-            className={`text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100 `}
-          >
-            I am Software Developer <br className='sm:block hidden' />
-            Turning dreams into reality.
-          </p>
+          <div className='sm:block hidden'>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(
+                    `I am Software Developer on a mission to blend cutting-edge technologies with real-world solutions. With a solid foundation as a full-stack developer, I've navigated the intricacies of both front-end and back-end development. Currently immersed in learning cloud technologies, I'm eager to leverage this knowledge to create scalable and efficient software solutions. My journey in the tech realm reflects a commitment to continuous learning and a drive to craft innovative and impactful solutions.`
+                  )
+                  .callFunction(() => {
+                    console.log('String typed out!')
+                  })
+
+                  .deleteAll()
+                  .callFunction(() => {
+                    console.log('All strings were deleted')
+                  })
+                  .start()
+              }}
+            />
+          </div>
         </div>
       </div>
     </section>

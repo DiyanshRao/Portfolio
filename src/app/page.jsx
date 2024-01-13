@@ -10,7 +10,7 @@ import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
-    <main className=' w-screen px-5 '>
+    <main className='w-screen px-5 '>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Hero />
