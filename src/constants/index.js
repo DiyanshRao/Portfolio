@@ -21,6 +21,7 @@ import {
   project2,
   project3,
   project4,
+  project5,
 } from '../assets'
 
 export const navLinks = [
@@ -187,6 +188,28 @@ const projects = [
     ],
     image: project4,
     source_code_link: 'https://discord-clone-production-68a7.up.railway.app/',
+  },
+
+  {
+    name: 'Sorting Algo Visualizer',
+    description:
+      'A Next js app build to visualize and understand basic sorting algorithms such as Bubble Sort, Insertion Sort, Merge Sort, Quick Sort. 🙌🌐 Check out the live project here: https://sortingalgo-visual.vercel.app',
+    tags: [
+      {
+        name: 'Nextjs-14',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Algorithms',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: project5,
+    source_code_link: 'https://sortingalgo-visual.vercel.app',
   },
   {
     name: 'AI Based Tic-tac-Toe',
