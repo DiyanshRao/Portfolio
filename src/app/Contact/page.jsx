@@ -1,10 +1,14 @@
 import Contact from '@/components/Contact'
+import Navbar from '@/components/Navbar'
 
 const page = () => {
   return (
-    <div>
-      <Contact />
-    </div>
+    <>
+      <Navbar />
+      <div>
+        <Contact />
+      </div>
+    </>
   )
 }
 export default page
