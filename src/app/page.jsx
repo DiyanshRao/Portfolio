@@ -18,7 +18,7 @@ export default function Home() {
         <Loading setLoading={() => setLoading(false)} />
       ) : (
         <main className='w-screen px-5 '>
-          <div className='relative z-0 bg-primary'>
+          <div className='relative z-0 bg-black'>
             <Navbar />
             <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
               <Hero />
